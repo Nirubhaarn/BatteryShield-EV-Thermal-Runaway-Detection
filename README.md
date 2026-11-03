@@ -1,7 +1,6 @@
-## Simulation Screenshots
-![Simulation 1](simulation1.jpeg)
-![Simulation 2](simulation%202.jpeg)
-![Circuit Diagram](circuit_diagram.jpg)
-
-## Demo Video
-[Watch the demo](batteryshield-ev-thermal-runaway-detection.mp4)
+## How to Run
+1. Download this repository (Code → Download ZIP) and extract it.
+2. Open main.c in STM32CubeIDE and build the project to get the .elf/.hex file.
+3. Open the Proteus project (.pdsprj).
+4. Double-click U1 (STM32F401RE) → set Program File to the .elf/.hex → OK.
+5. Press Play to start the simulation.
